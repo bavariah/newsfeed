@@ -1,17 +1,43 @@
 body {
+  padding: 0;
+  margin: 0;
   font-family: "Ariel", Serif;
   background-color: #f4f4f4;
   overflow-x: hidden;
 }
 
 .navbar {
-  background-color: #3b5998;
+  background-color: #121825;
   overflow: hidden;
   height: 63px;
 }
 
-.navbar a {
+.navbar span a {
   float: left;
+}
+.navbar span a:hover {
+  background-color: #121825;
+}
+.navbar .search {
+  float: right;
+  margin: 0px 100px 0px 0;
+}
+.navbar .search form {
+  background-color: #fff;
+}
+.navbar button {
+  background-color: #d1cccc;
+  border: none;
+  width: 50px;
+  padding: 14px;
+}
+.navbar input[type="text"] {
+  padding: 14px;
+  font-size: 17px;
+  border: none;
+}
+.navbar a {
+  float: right;
   display: block;
   color: #f2f2f2;
   text-align: center;
@@ -21,7 +47,7 @@ body {
 }
 
 .navbar ul {
-  margin: 8px 0 0 0;
+  margin: 5px 200px 0 0;
   list-style: none;
 }
 
